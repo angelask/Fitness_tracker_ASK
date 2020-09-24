@@ -1,7 +1,7 @@
 var express = require("express")
 var mongoose = require("mongoose")
 const PORT = process.env.PORT || 8080;
-
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/userdb", { useNewUrlParser: true });
 const app = express();
 
 app.use(express.static("public"));
@@ -10,10 +10,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
-mongoose.connect("mongodb://localhost/dbFitness", { useNewUrlParser: true });
+//mongoose.connect("mongodb://localhost/dbFitness", { useNewUrlParser: true });
 
 
-//require("./routes/api_routes")(app);
+require("./routes/api_routes")(app);
 require("./routes/html_routes")(app);
 
 
