@@ -1,6 +1,6 @@
 # Fitness_tracker_ASK
 Hw 17 fitness tracker
-# Unit 09 Node.js and ES6+ Homework: Good README Generator
+# Unit 17 Fitness Tracker README Generator
   # Table of Contents
 
   ## Description
@@ -51,6 +51,6 @@ Hw 17 fitness tracker
 
 [Git Hub]( https://github.com/angelask/Fitness_tracker_ASK)
 
- [app screenshot]( https://user-images.githubusercontent.com/68309111/93152080-5c8cac00-f6c3-11ea-94ce-eb2f6755fc4f.PNG)
+ [app screenshot]( https://github.com/angelask/Fitness_tracker_ASK/issues/1#issue-709580126)
 
- [heroku]( https://fitnessappask.herokuapp.com/)
+ [heroku]( https://fitnesstrackerappask.herokuapp.com/)
